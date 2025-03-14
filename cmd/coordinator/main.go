@@ -3,8 +3,8 @@ package main
 import (
 	"flag"
 
-	"github.com/JyotinderSingh/task-queue/pkg/common"
-	"github.com/JyotinderSingh/task-queue/pkg/coordinator"
+	"github.com/Yashh-777/Distributed-Task-Scheduler/pkg/common"
+	"github.com/Yashh-777/Distributed-Task-Scheduler/pkg/coordinator"
 )
 
 var (
