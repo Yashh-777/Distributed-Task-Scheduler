@@ -19,7 +19,7 @@ COPY go.mod go.sum ./
 
 # Download all dependencies
 RUN go mod download
-
+ 
 # Copy the local package files to the container's workspace.
 COPY pkg/ ./pkg/
 COPY cmd/worker/main.go .
